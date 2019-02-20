@@ -1,0 +1,229 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/cv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            card_view:cardCornerRadius="4dp">
+
+            <RelativeLayout
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <!--<ScrollView-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:fillViewport="true">-->
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/balance_check"
+                            style="@style/UsefulServicesTextViewStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="85"
+                            android:text="@string/balance_inquiry_prepaid"
+                            android:textSize="12sp"/>
+
+
+                        <Button
+                            android:id="@+id/btn_balance"
+                            style="@style/ButtonStyleTeletalk"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="15"
+                            android:text="@string/btn_check"/>
+                    </LinearLayout>
+
+                    <include
+                        layout="@layout/blank_text_view"></include>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/int_balance"
+                            style="@style/UsefulServicesTextViewStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="85"
+                            android:text="@string/internet_balance"/>
+
+
+                        <Button
+                            android:id="@+id/btn_internet_balance_check"
+                            style="@style/ButtonStyleTeletalk"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="15"
+                            android:text="@string/btn_check"/>
+                    </LinearLayout>
+
+                    <include
+                        layout="@layout/blank_text_view"></include>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/own_number"
+                            style="@style/UsefulServicesTextViewStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="85"
+                            android:text="@string/own_number"/>
+
+
+                        <Button
+                            android:id="@+id/gp_btn_your_no"
+                            style="@style/ButtonStyleTeletalk"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="15"
+                            android:text="@string/btn_text_get"/>
+                    </LinearLayout>
+
+                    <include
+                        layout="@layout/blank_text_view"></include>
+
+                    <LinearLayout
+                        android:id="@+id/native_ad_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"/>
+
+                    <include
+                        layout="@layout/blank_text_view"></include>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/missed_called_alert"
+                            style="@style/UsefulServicesTextViewStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="85"
+                            android:text="@string/missed_call_alert"/>
+
+
+                        <Button
+                            android:id="@+id/btn_missed_call_alert_start"
+                            style="@style/ButtonStyleTeletalk"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="15"
+                            android:text="@string/btn_start"/>
+                    </LinearLayout>
+
+                    <include
+                        layout="@layout/blank_text_view"></include>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/missed_called_alert_a"
+                            style="@style/UsefulServicesTextViewStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="85"
+                            android:text="@string/missed_call_alert"/>
+
+
+                        <Button
+                            android:id="@+id/btn_missed_call_alert_stop"
+                            style="@style/ButtonStyleTeletalk"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="15"
+                            android:text="@string/btn_stop"/>
+                    </LinearLayout>
+
+                    <include
+                        layout="@layout/blank_text_view"></include>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/call_block_text"
+                            style="@style/UsefulServicesTextViewStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="85"
+                            android:text="@string/call_block_service"/>
+
+
+                        <Button
+                            android:id="@+id/btn_call_block"
+                            style="@style/ButtonStyleTeletalk"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="15"
+                            android:text="@string/btn_about"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+                <!--</ScrollView>-->
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            card_view:cardCornerRadius="5dp">
+
+            <LinearLayout
+                android:id="@+id/native_ad_container1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"/>
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>

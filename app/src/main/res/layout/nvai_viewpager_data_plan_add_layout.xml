@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:card_view="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:descendantFocusability="beforeDescendants"
+              android:focusableInTouchMode="true"
+              android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+
+        android:id="@+id/addPlanCard_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp"
+        card_view:cardCornerRadius="6dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/add_data_plan_text"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@color/gp_button_color_default"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/add_data_plan_text"
+                android:textColor="#ffffff"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/tvInfoDeviceModel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:padding="5dp"
+                android:text="@string/add_data_plan"
+                android:textColor="#000000"
+                android:textSize="15sp"/>
+
+            <ImageView
+                android:id="@+id/ivAddDataPlan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/add_button_inside_black_circle"/>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <!--End of add data plan cardView-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/llDataPlanInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical"
+
+            >
+
+            <android.support.v7.widget.CardView
+
+                android:id="@+id/dataPlanChartCardView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                card_view:cardCornerRadius="6dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.github.mikephil.charting.charts.LineChart
+                        android:id="@+id/chart"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+
+                android:id="@+id/dataPlanCardView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                card_view:cardCornerRadius="6dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:background="@color/gp_button_color_default"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:weightSum="10"
+                        >
+
+                        <TextView
+                            android:id="@+id/current_data_plan"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="@string/current_data_plan"
+                            android:textColor="#ffffff"
+                            android:textSize="20sp"/>
+
+                        <ImageView
+                            android:id="@+id/ivDeletePlan"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="8"
+                            android:src="@drawable/ic_delete_sweep_white_36dp"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="5dp"
+                        >
+
+                        <TextView
+                            android:id="@+id/tvCurrentDataPlanSize"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/package_size"
+                            android:textColor="#000000"
+                            android:textSize="15sp"
+                            />
+
+                        <TextView
+                            android:id="@+id/tvCurrentDataPlanDuration"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/usage_duration"
+                            android:textColor="#000000"
+                            android:textSize="15sp"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tvCurrentDataPlanPeriod"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="5dp"
+                        android:text="@string/usage_period"
+                        android:textColor="#000000"
+                        android:textSize="15sp"/>
+
+                    <com.github.mikephil.charting.charts.PieChart
+                        android:id="@+id/pcNetPlanRemaining"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        >
+
+                    </com.github.mikephil.charting.charts.PieChart>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:id="@+id/alertPlanCard_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="8dp"
+                card_view:cardCornerRadius="6dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:id="@+id/usage_limit_notification"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:background="@color/gp_button_color_default"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="@string/usage_limit_notification"
+                        android:textColor="#ffffff"
+                        android:textSize="20sp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp">
+
+                        <TextView
+                            android:id="@+id/daily_consumed_alert"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/daily_consumed_alert"
+                            android:textColor="#000"
+                            android:textSize="16sp"/>
+
+                        <CheckBox
+                            android:id="@+id/checkboxDailyUsages"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="9"
+                            android:theme="@style/checkBoxStyle"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal"
+                        android:weightSum="5"
+                        >
+
+                        <TextView
+                            android:id="@+id/set_daily_limit"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:paddingLeft="20dp"
+                            android:text="@string/set_daily_limit"
+                            android:textSize="16sp"/>
+
+                        <EditText
+                            android:id="@+id/editTextDailyLimit"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:enabled="false"
+                            android:inputType="numberDecimal"
+                            />
+
+                        <TextView
+                            android:id="@+id/mbOrGb"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:paddingRight="10dp"
+                            android:text=""
+                            android:textSize="16sp"/>
+
+
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="#80202020"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:orientation="horizontal"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp">
+
+                        <TextView
+                            android:id="@+id/usage_limit_alert"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/usage_limit_alert"
+                            android:textColor="#000"
+                            android:textSize="16sp"/>
+
+                        <CheckBox
+                            android:id="@+id/checkboxUsesLimit"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="9"
+                            android:theme="@style/checkBoxStyle"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal"
+                        android:weightSum="5"
+                        >
+
+                        <TextView
+                            android:id="@+id/set_limit_percentage"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:paddingLeft="20dp"
+                            android:text="@string/set_limit_percentage"
+                            android:textSize="16sp"/>
+
+                        <EditText
+                            android:id="@+id/editTextPercentageAlert"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:enabled="false"
+                            android:inputType="numberDecimal"
+                            />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:paddingRight="10dp"
+                            android:text="%"
+                            android:textSize="16sp"/>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

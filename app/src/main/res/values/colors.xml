@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2015 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <color name="window_background">#FFF5F5F5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00ff0000</color>
+    <color name="grameen_phone_button_color_pressed">#1976D2</color>
+    <color name="gp_button_color_default">#2196F3</color>
+    <color name="airtel_button_color_pressed">#D32F2F</color>
+    <color name="airtel_button_color_default">#F44336</color>
+    <color name="teletalk_button_color_pressed">#388E3C</color>
+    <color name="teletalk_button_color_default">#4CAF50</color>
+    <color name="robi_button_color_pressed">#D32F2F</color>
+    <color name="robi_button_color_default">#F44336</color>
+    <color name="banglalink_button_color_pressed">#F57C00</color>
+    <color name="banglalink_button_color_default">#FF9800</color>
+
+
+    <!-- Unlimited toast background -->
+    <color name="color_unl">#FF00A200</color>
+
+    <!-- Walton Blue Color -->
+    <color name="color_walton_blue">#FF041A52</color>
+
+
+
+</resources>

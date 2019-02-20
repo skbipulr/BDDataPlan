@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            card_view:cardCornerRadius="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+                <!-- Terms & conditions -->
+
+                <TextView
+                    android:id="@+id/terms_and_conditions"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@color/gp_button_color_default"
+                    android:text="@string/terms_and_conditions"
+                    android:gravity="center"
+
+                    android:textColor="#ffffff"
+
+                    android:textStyle="bold"
+                    android:textAllCaps="true"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text=" ➯ "/>
+
+                    <TextView
+                        android:id="@+id/day_30_free_trial_subscription"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:paddingTop="5dp"
+                        android:text="@string/day_30_free_trial_subscription"/>
+
+                </LinearLayout>
+
+                <include
+                    layout="@layout/blank_text_view"></include>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text=" ➯ "/>
+
+                    <TextView
+                        android:id="@+id/free_20mb_interner_for_music"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:text="@string/free_20mb_interner_for_music"/>
+
+                </LinearLayout>
+
+                <include
+                    layout="@layout/blank_text_view"></include>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text=" ➯ "/>
+
+                    <TextView
+                        android:id="@+id/simple_subscription_packs"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:text="@string/simple_subscription_packs"/>
+
+                </LinearLayout>
+
+                <include
+                    layout="@layout/blank_text_view"></include>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text=" ➯ "/>
+
+                    <TextView
+                        android:id="@+id/ad_free_for_music"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:text="@string/ad_free_for_music"/>
+
+                </LinearLayout>
+
+                <include
+                    layout="@layout/blank_text_view"></include>
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text=" ➯ "/>
+
+                    <TextView
+                        android:id="@+id/earn_points_by_streaming_for_music"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:text="@string/earn_points_by_streaming_for_music"/>
+
+                </LinearLayout>
+
+                <include
+                    layout="@layout/blank_text_view"></include>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text=" ➯ "/>
+
+                    <TextView
+                        android:id="@+id/premium_sound_quality"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:paddingBottom="5dp"
+                        android:text="@string/premium_sound_quality"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            card_view:cardCornerRadius="5dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ListView
+                        android:id="@+id/list_item"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"></ListView>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            card_view:cardCornerRadius="5dp">
+
+            <LinearLayout
+                android:id="@+id/native_ad_container1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"/>
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="right|bottom"
+            android:paddingRight="10dp"
+            android:paddingBottom="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/check_on_web"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_gravity="bottom"
+                android:textSize="16sp"
+                android:text="@string/check_on_web"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_gravity="bottom"
+                android:textSize="16sp"
+                android:text=" | "
+                android:textAllCaps="true"/>
+            <TextView
+                android:id="@+id/gp_official_music_link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_gravity="bottom"
+                android:textSize="16sp"
+                android:text="@string/gp_music"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

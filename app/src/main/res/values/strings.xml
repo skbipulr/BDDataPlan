@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- start facebook ads //-->
+    <string name="facebook_benner_ads">1453443504734328_1453470934731585</string>
+    <!-- end of facebook ads //-->
+    <string name="call_block_service">Call Block Service</string>
+    <string name="call_block_service_bn"> কল ব্লক সার্ভিস </string>
+
+    <string name="usage_since_1_december">Usage Since 1 december </string>
+    <string name="usage_since_1_december_bn"> পহেলা ডিসেম্বর থেকে ব্যবহার </string>
+    <string name="edittext_hint"><font size="25">  type your search item  </font></string>
+    <string name="edittext_hint_bn"><font size="25">  সার্চ আইটেমটি টাইপ করুন  </font></string>
+
+
+    <string name="apply_charge_free">Apply charge : Free</string>
+    <string name="apply_charge_free_bn"> চার্জ প্রযোজ্য : বিনামূল্যে</string>
+
+    <string name="send_sms">Send SMS</string>
+    <string name="send_sms_bn"> এসএমএস পাঠান </string>
+    <string name="details">Details</string>
+    <string name="details_bn"> বিস্তারিত </string>
+    <string name="purchase">USSD Dial</string>
+    <string name="purchase_bn"> ইউএসএসডি ডায়াল </string>
+    <string name="purchase_by_sms"> SMS</string>
+    <string name="purchase_by_sms_bn"> এসএমএস </string>
+    <string name="package_information">Pakage Information </string>
+    <string name="package_information_bn">প্যাকেজ তথ্য </string>
+    <string name="package_type"> Package type </string>
+    <string name="package_type_bn"> প্যাকেজ </string>
+
+    <string name="fnf_service_bn"> এফএনএফ </string>
+
+    <string name="package_nishchinto">Package : Nishchinto</string>
+    <string name="package_nishchinto_bn"> প্যাকেজ: নিশ্চিন্ত </string>
+    <string name="stop_all_service">All services</string>
+    <string name="stop_all_service_bn"> সকল সার্ভিস </string>
+    <string name="one_time_pack_add_ons_bn">এককালীন প্যাক  (অ্যাড-অংশ)</string>
+    <string name="one_time_pack_add_ons">One Time Pack (add ons)</string>
+
+    <string name="fnf_menu">FnF Menu</string>
+    <string name="fnf_menu_bn"> এফএনএফ </string>
+    <string name="check_super_fnf">Check Super FnF</string>
+    <string name="check_super_fnf_bn"> সুপার এফএনএফ</string>
+    <string name="add_super_fnf">Add Super FnF</string>
+    <string name="add_super_fnf_bn"> সুপার এফএনএফ</string>
+
+    <string name="missed_call_alert">Missed Call Alert</string>
+    <string name="missed_call_alert_bn"> মিসড কল অ্যালার্ট </string>
+    <string name="own_number">Own Number</string>
+    <string name="own_number_bn"> মোবাইল নম্বর </string>
+    <string name="internet_balance">Internet Balance</string>
+    <string name="internet_balance_bn"> ইন্টারনেট ব্যালেন্স </string>
+    <string name="emergency_balance">Emergency Balance</string>
+    <string name="emergency_balance_bn"> জরুরী ব্যালান্স </string>
+    <string name="balance_inquiry_prepaid">Balance Inquiry (Prepaid)</string>
+    <string name="balance_inquiry_prepaid_bn">ব্যালান্স ইনকোয়ারি (প্রিপেইড)</string>
+
+    <string name="menu">Menu</string>
+    <string name="menu_bn"> মেনু </string>
+    <string name="fnf_service_menu"> FnF </string>
+    <string name="fnf_service_menu_bn"> এফএনএফ </string>
+    <string name="delete_fnf">Delete FnF</string>
+    <string name="delete_fnf_bn"> এফএনএফ </string>
+
+    <string name="done">Done</string>
+    <string name="done_bn"> সম্পন্ন </string>
+    <string name="add_fnf">Add FnF</string>
+    <string name="add_fnf_bn"> এফএনএফ </string>
+    <string name="fnf_list">FnF List</string>
+    <string name="fnf_list_bn"> এফএনএফ লিস্ট </string>
+    <string name="sent_message">Send Message</string>
+    <string name="sent_message_bn">বার্তা পাঠান</string>
+    <string name="cancel">Cancel</string>
+    <string name="cancel_bn">বাতিল</string>
+    <string name="end_date">End date</string>
+    <string name="end_date_bn">শেষ তারিখ</string>
+    <string name="start_date">Start Date</string>
+    <string name="start_date_bn"> শুরুর তারিখ </string>
+    <string name="day_7">7 days</string>
+    <string name="day_7_bn">7 দিন</string>
+    <string name="package_duration">Package Duration</string>
+    <string name="package_duration_bn">প্যাকেজ মেয়াদ</string>
+    <string name="mb_10">10</string>
+    <string name="mb_10_bn">১০</string>
+    <string name="unlimited">Unlimited</string>
+    <string name="unlimited_bn"> সীমাহীন </string>
+    <string name="gb">GB</string>
+    <string name="gb_bn">গিগাবাইট</string>
+
+    <string name="delete_super_fnf">Delete Super FnF</string>
+    <string name="delete_super_fnf_bn"> সুপার এফএনএফ </string>
+
+    <string name="usage_period">Usage  period : 12/10/2016 to 29/12/2016</string>
+    <string name="usage_duration">Uses Duration : 1 days</string>
+    <string name="usage_duration_bn">ব্যবহারের মেয়াদ : ১ দিন</string>
+    <string name="data_size_unlimit_bn"> ডাটার পরিমাণ: সীমাহীন </string>
+    <string name="recharge_info"><u>Packages &amp; Recharge</u></string>
+    <string name="recharge_info_bn"><u>প্যাকেজ &amp; রিচার্জ</u></string>
+    <string name="int_balance_for_payg">Int Balance (for *PAYG)</string>
+    <string name="int_balance_for_payg_bn">ইন্টারনেট ব্যালেন্স (for *PAYG)</string>
+
+
+     <!--Start of Common info -->
+    <string name="current_data_plan">Current Data Plan</string>
+    <string name="current_data_plan_bn"> বর্তমান ডেটা প্ল্যান </string>
+    <string name="vat" formatted="false">15% VAT, 5% SD &amp; 1% Surcharge applicable.</string>
+    <string name="vat_bn" formatted="false">১৫% ভ্যাট, ৫% এসডি &amp; ১% সারচার্জ প্রযোজ্য |</string>
+    <string name="package_size">Package Size : 100 Mb</string>
+    <string name="package_size_bn"> প্যাকেজ ফাইলের আকার: ১০০ মেগাবাইট </string>
+    <string name="usage_periodd"> Usage Period : </string>
+    <string name="usage_periodd_bn"> ব্যবহারের সময়কাল : </string>
+    <string name="data_size_unlimit"> Data Size: Unlimit. </string>
+    <string name="time_limit"> Time Limit : </string>
+    <string name="time_limit_bn"> মেয়াদ : </string>
+    <string name="data_size"> Data Size:  </string>
+    <string name="data_size_bn">  ডাটার পরিমাণ:   </string>
+    <string name="setup_alert"> Please give your end date of setup plan.</string>
+    <string name="setup_alert_bn"> আপনার সেটআপ পরিকল্পনার শেষ তারিখ ইনপুট দিবেন</string>
+    <string name="min_press_2_chars">Minimum Enter First 2 Characters of search item</string>
+    <string name="min_press_2_chars_bn">নূন্যতম লিখুন প্রথম ২ সার্চ আইটেমের অক্ষর</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_settings_bn"> সেটিংস </string>
+    <string name="check_on_web">Check on web</string>
+    <string name="check_on_web_bn"> ওয়েবে চেক করুন </string>
+    <string name="app_data_usage"> App Data Usage </string>
+    <string name="app_data_usage_bn"> অ্যাপ কর্তৃক ডেটা ব্যবহার </string>
+    <string name="packge"> Package</string>
+    <string name="packge_bn"> প্যাকেজ </string>
+    <string name="day"> day </string>
+    <string name="day_bn"> দিন </string>
+    <string name="days"> days </string>
+    <string name="days_bn"> দিন </string>
+
+    <string name="g_internet_plan"><u> 3G Internet Plan</u></string>
+    <string name="g_internet_plan_bn"><u> 3G ইন্টারনেট প্ল্যান </u></string>
+    <string name="migration"><u>Prepaid | Postpaid</u></string>
+    <string name="migration_bn"> প্রি-পেইড | পোস্টপেইড </string>
+    <string name="mb">MB</string>
+    <string name="mb_bn"> মেগাবাইট </string>
+    <string name="tv_2g">2G Plan</string>
+    <string name="tv_3g">2G Plan</string>
+    <string name="tv_2g_bn">2G প্ল্যান </string>
+    <string name="tv_3g_bn">3G প্ল্যান </string>
+    <string name="app_name_here">App Name Here</string>
+    <string name="app_name_here_bn"> অ্যাপ নাম এখানে </string>
+    <string name="delete">Delete</string>
+    <string name="delete_bn"> মুছে ফেলুন </string>
+    <string name="tv_dotdotdot">---</string>
+    <string name="btn_text_get">Get</string>
+    <string name="btn_text_get_bn"> দেখুন </string>
+    <string name="btn_check">Check</string>
+    <string name="btn_check_bn"> চেক করুন</string>
+    <string name="btn_active">Active</string>চালু korun
+    <string name="btn_active_bn"> চালু করুন </string>
+    <string name="btn_deactive">Deactive</string>
+    <string name="btn_deactive_bn"> বন্ধ করুন </string>
+    <string name="btn_menu">Menu</string>
+    <string name="btn_menu_bn"> মেনু </string>
+    <string name="btn_dial">Dial</string>
+    <string name="btn_dial_bn"> ডায়াল </string>
+    <string name="btn_sms">SMS</string>
+    <string name="btn_sms_bn"> এসএমএস </string>
+    <string name="btn_start">Start</string>
+    <string name="btn_start_bn"> চালু করুন </string>
+    <string name="btn_stop">Stop</string>
+    <string name="btn_stop_bn"> বন্ধ করুন </string>
+    <string name="btn_about">About</string>
+    <string name="btn_about_bn"> সম্পর্কে </string>
+    <string name="btn_add">Add</string>
+    <string name="btn_add_bn"> যোগ করুন  </string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_remove_bn"> মুছে ফেলুন </string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_ok_bn"> ঠিক আছে </string>
+    <string name="search_here">search here</string>
+    <string name="search_here_bn"> এখানে অনুসন্ধান করুন </string>
+    <string name="btn_activate">Activate</string>
+    <string name="btn_activate_bn"> সক্রিয় করুন </string>
+    <string name="btn_deactivate">Dectivate</string>
+    <string name="btn_deactivate_bn"> নিষ্ক্রিয় করুন </string>
+    <string name="volume">Volume: </string>
+    <string name="volume_bn"> পরিমাণ: </string>
+    <string name="call_rate">Call Rate :</string>
+    <string name="call_rate_bn">কল রেট :</string>
+    <string name="change_fnf">FnF</string>
+    <string name="change_fnf_bn"> এফএনএফ </string>
+    <string name="apply_charge">Apply charge : </string>
+    <string name="apply_charge_bn">চার্জ প্রযোজ্য : </string>
+    <string name="auto_renew">Auto Renew</string>
+    <string name="auto_renew_bn">অটো-রিনিউ</string>
+    <!--End of Common info-->
+
+    <!-- fragment menu // -->
+    <string name="prepaid">Prepaid</string>
+    <string name="postpaid">Postpaid</string>
+    <string name="package_migration">Package Migration</string>
+    <string name="miscellaneous">Miscellaneous</string>
+    <string name="fnf_service">FnF </string>
+    <string name="music">Music </string>
+    <string name="package_introduce">Package Introduce </string>
+    <string name="no">No </string>
+    <string name="no_bn">না </string>
+    <string name="agree">Agree </string>
+    <string name="agree_bn"> ঠিক আছে </string>
+    <!-- end of fragment ment // -->
+
+
+    <!-- fragment menu // -->
+    <string name="prepaid_bn">প্রিপেইড</string>
+    <string name="postpaid_bn">পোস্টপেইড</string>
+    <string name="package_migration_bn">প্যাকেজ মাইগ্রেশন</string>
+    <string name="miscellaneous_bn">বিবিধ</string>
+    <string name="music_bn"> মিউজিক </string>
+    <string name="package_introduce_bn">প্যাকেজ পরিচিতি </string>
+    <!-- end of fragment ment // -->
+
+
+
+
+
+    <!--  Setting layout    //-->
+    <string name="english">English</string>
+    <string name="bangla"> বাংলা </string>
+    <string name="settings_title">Settings</string>
+    <string name="settings_title_bn"> সেটিংস </string>
+    <string name="select_language">Select Language</string>
+    <string name="select_language_bn"> ভাষা নির্বাচন করুন </string>
+    <string name="tv_settings">Settings</string>
+    <string name="tv_settings_bn"> সেটিংস </string>
+    <string name="backButton">Back</string>
+    <string name="backButton_bn"> পিছনে </string>
+    <!--  End of Setting layout    //-->
+
+
+    <!--  about layout    //-->
+
+    <string name="about">About</string>
+    <string name="about_bn">সম্পর্কে</string>
+    <string name="aboutT">About</string>
+    <string name="aboutT_bn"> আমাদের সম্পর্কে </string>
+    <string name="app_name">BD Data Plan</string>
+    <string name="app_name_bn"> বিডি ডাটা প্ল্যান</string>
+    <string name="versionName">version : 5.1.3</string>
+    <string name="versionName_bn"> সংস্করণ : ৫.১.৩ </string>
+    <string name="applicationDescription">BD DATA PLAN is own property of WALTON Cellphone Research and Development.</string>
+    <string name="applicationDescription_bd"> “বিডি ডাটা প্ল্যান” এর স্বত্বাধিকার ওয়ালটন মোবাইল রিসার্চ অ্যান্ড ডেভেলপমেন্ট (সফটওয়্যার ইনোভেসন) ডিপার্টমেন্ট ।  </string>
+    <string name="more_apps_from_walton"><u><b>More apps from Walton Digi-Tech</b></u></string>
+    <string name="more_apps_from_walton_bn"> ওয়ালটন ডিজি- টেক থেকে আরও অ্যাপ্লিকেশন </string>
+    <string name="about_walton"><u><b>About WALTON</b></u></string>
+    <string name="about_walton_bn"> ওয়ালটন সম্পর্কে </string>
+    <!--<string name="poweredBy">Powered by WALTON Corporation</string>-->
+    <!--<string name="poweredBy_bn"> ওয়ালটন কর্পোরেশন দ্বারা চালিত </string>-->
+    <string name="copyRight">Copyright\u00A9 2018</string>
+    <string name="copyRight_bn">কপিরাইট\u00A9 ২০১৮</string>
+    <!--  End of about layout    //-->
+
+
+    <!--  navigation menu    //-->
+
+    <string name="home">Home</string>
+    <string name="home_bn"> হোম </string>
+    <string name="tv_about">About</string>
+    <string name="tv_about_bn">সম্পর্কে </string>
+    <string name="tv_share">Share</string>
+    <string name="tv_share_bn"> শেয়ার </string>
+    <!--  End of navigation menu    //-->
+
+
+
+      <!--Start of Data plan setup-->
+    <string name="dataSize">Data Size</string>
+    <string name="dataSize_bn"> ডেটা সাইজ </string>
+    <string name="data_plan">ADD DATA PLAN</string>
+    <string name="data_plan_bn"> ডাটা প্ল্যান যোগ করুন </string>
+
+    <string name="delete_data_plan">Delete Data Plan</string>
+    <string name="delete_data_plan_bn">ডেটা প্ল্যান মুছুন</string>
+    <string name="duration">Duration</string>
+    <string name="duration_bn"> মেয়াদ </string>
+    <string name="daily">Daily</string>
+    <string name="daily_bn"> দৈনিক </string>
+    <string name="data_plan_instructions">BD DATA PLAN apps can cost your money...................</string>
+    <string name="data_plan_instructions_bn">বিডি ডেটা প্ল্যান অ্যাপ্লিকেশন আপনার টাকা খরচ করতে পারেন...................</string>
+
+    <string name="data_plan_delete">Deleting the data plan will remove all the data usage history permanently and it can not be undone. </string>
+    <string name="data_plan_delete_bn">ডেটা প্ল্যান স্থায়ীভাবে ব্যবহৃত সমস্ত ডেটা মুছে ফেলবে এবং তা পূর্বাবস্থায় ফেরানো যাবে না | </string>
+
+    <string name="add_data_plan_text">ADD DATA PLAN</string>
+    <string name="add_data_plan_text_bn">ডাটা প্ল্যান যোগ করুন</string>
+    <string name="first_time_alert">Purchase any Data pack or getting any service through call/SMS can apply charge according to Mobile operator terms &amp; conditions. Any extra charge not applicable for DataPlan App.</string>
+    <string name="first_time_alert_bn">যে কোন ডাটা প্যাকেজ ক্রয় কিংবা কল অথবা  এসএমএস এর মাধ্যমে গ্রহনকৃত  সকল প্রকার সেবার জন্য  মোবাইল অপারেটরের শর্তানুযায়ী চার্জ  প্রযোজ্য হবে। “বিডি ডাটা প্ল্যান” অতিরিক্ত কোন চার্জ আরোপ করেনা।</string>
+    <string name="add_data_plan">Add a plan with date and data size. Then Monitor data plan uses daily. View app usages data amount. Get notification on daily data according to daily data limit. And also get notification on percentage data on total data packages limit.</string>
+    <string name="add_data_plan_bn">প্রতিদিনের ডাটা ব্যবহারের পরিমাণ, আলাদা আলাদা অ্যাপ কর্তৃক ডাটা ব্যবহার এবং কত শতাংশ ব্যবহার হচ্ছে তার নোটিফিকেশন পাওয়ার জন্য একটি প্ল্যান সেটআপ করুন |</string>
+    <string name="usage_limit_notification">Notification Setup</string>
+    <string name="usage_limit_notification_bn"> নোটিফিকেশন সেটআপ </string>
+    <string name="daily_consumed_alert">Daily consumed alert</string>
+    <string name="daily_consumed_alert_bn"> দৈনিক ব্যবহারের সতর্কতা </string>
+
+    <string name="set_limit_percentage">Set limit percentage</string>
+    <string name="set_limit_percentage_bn"> শতাংশ সীমা</string>
+    <string name="usage_limit_alert">Usage limit alert</string>
+    <string name="usage_limit_alert_bn"> ব্যবহারের সীমা সতর্কতা </string>
+    <string name="set_daily_limit">Set daily limit</string>
+    <string name="set_daily_limit_bn"> ব্যবহার সীমা </string>
+
+
+    <string name="terms_and_conditions">Terms &amp; conditions</string>
+    <string name="terms_and_conditions_bn"> শর্তাবলী </string>
+
+    <string name="pulse">Pulse</string>
+    <string name="pulse_bn"> পালস </string>
+    <string name="sms">SMS</string>
+    <string name="sms_bn">এসএমএস</string>
+
+    <string name="migrate">Migrate</string>
+    <string name="migrate_bn"> মাইগ্রেট </string>
+    <!--End of Data plan setup-->
+
+
+      <!--Start GP -->
+    <string name="to_stop_sms_5000">To stop your current data pack, write &quot;OFF&quot; and send to 5000.</string>
+    <string name="to_stop_sms_5000_bn"> আপনার বর্তমান ডাটা প্যাকটি বাতিল করতে হলে OFF লিখে ৫০০০ নম্বরে পাঠাতে হবে | </string>
+    <string name="to_turn_sms_5000">To turn on Auto Renewal feature for Smart Plans, please SMS &quot;ON&quot; to 5000.</string>
+    <string name="to_turn_sms_5000_bn"> স্মার্টপ্ল্যানে অটোরিনিউয়াল ফিচার চালু করতে ON লিখে এসএমএস করুন ৫০০০ নম্বরে |</string>
+    <string name="application_charge_is_not_applicable">Activation charge is not applicable.</string>
+    <string name="application_charge_is_not_applicable_bn"> অ্যাক্টিভেশন চার্জ প্রযোজ্য নয় |</string>
+    <string name="grameenphone">Grameenphone</string>
+    <string name="grameenphone_bn"> গ্রামীণফোন </string>
+    <string name="gp_music"><u>GP Music</u></string>
+    <string name="gp_music_bn"> জিপি মিউজিক </string>
+    <string name="gp_internet_1gb">GP Internet</string>
+    <string name="gp_internet_1gb_bn"> জিপি ইন্টারনেট </string>
+    <string name="gp_to_gp">Gp to Gp</string>
+    <string name="gp_to_gp_bn"> জিপি - জিপি </string>
+    <string name="gp_to_others">Gp to Others</string>
+    <string name="gp_to_others_bn">জিপি - অন্যান্য</string>
+    <string name="extra_charge_fee_for_gp">Extra usage fee of BDT 0.01/10 KB applicable.</string>
+    <string name="extra_charge_fee_for_gp_bn">  অতিরিক্ত ব্যবহারে ০.০১ টাকা / ১০ কেবি চার্জ প্রযোজ্য হবে |</string>
+    <string name="gp_fnf_condition_1">Applicable product: GP Prepaid, djuice, Ekota, BS Prepaid, Xplore and BS postpaid.</string>
+    <string name="gp_fnf_condition_1_bn">শুধুমাত্র জিপি প্রিপেইড, ডিজুস, এক্সপ্লোর, বিজনেস সলিউশনস প্রিপেইড ও পোস্টপেইড, একতা প্রিপেইড ও পোস্টপেইড নম্বরের ক্ষেত্রে প্রযোজ্য :</string>
+    <string name="gp_fnf_condition_2">Super F&amp;F is applicable only for Bondhu, Amontron and Xplore Package.</string>
+    <string name="gp_fnf_condition_2_bn">সুপার F&amp;F শুধুমাত্র বন্ধু, আমন্ত্রণ ও এক্সপ্লোর প্যাকেজের জন্য প্রযোজ্য |</string>
+    <string name="gp_fnf_condition_3">Super F&amp;F can be changed after 1 days of activation.</string>
+    <string name="gp_fnf_condition_3_bn">সুপার F&amp;F চালু করার ১ দিন পর পরিবর্তন করা যাবে |</string>
+    <string name="gp_fnf_condition_4">F&amp;F port for the eligible products will be remaining 2888.</string>
+    <string name="gp_fnf_condition_4_bn">প্রযোজ্য সকল প্যাকেজের জন্য F&amp;F পোর্ট হচ্ছে ২৮৮৮ |</string>
+    <string name="gp_fnf_condition_5">The procedure of F&amp;F activation, change, addition for Prepaid and Post paid as per the below list:-</string>
+    <string name="gp_fnf_condition_5_bn">প্রিপেইড ও পোস্টপেইড গ্রাহকরা F&amp;F-এর জন্য নিচের নিয়মে অ্যাক্টিভেশন করুন:-</string>
+    <string name="trial_plan_30_days">Trial Plan (30 Days)</string>
+    <string name="trial_plan_30_days_bn"> ট্রায়াল প্ল্যান (৩০ দিন) </string>
+    <string name="premium_sound_quality">Premium sound quality.</string>
+    <string name="premium_sound_quality_bn"> প্রিমিয়াম সাউন্ড কোয়ালিটি </string>
+    <string name="earn_points_by_streaming_for_music">Earn points by streaming and use these points later for exclusive benefits.</string>
+    <string name="earn_points_by_streaming_for_music_bn"> স্ট্রিমিং করে পয়েন্ট পাওয়া যাবে এবং পরে এক্সক্লুসিভ সব সুবিধার জন্য পয়েন্টগুলো ব্যবহার করা যাবে </string>
+    <string name="ad_free_for_music">Ad-free and runs on both mobile and Wi-Fi network.</string>
+    <string name="ad_free_for_music_bn"> বিজ্ঞাপণমুক্ত ও মোবাইল এবং ওয়াই-ফাই উভয় নেটওয়ার্কেই চলে </string>
+    <string name="simple_subscription_packs">Simple subscription packs – daily, weekly &amp; monthly.</string>
+    <string name="simple_subscription_packs_bn"> দৈনিক, সাপ্তাহিক এবং মাসিক - সহজ সাবস্ক্রিপশন প্যাক </string>
+    <string name="free_20mb_interner_for_music">Free 20 MB internet with every new subscription.</string>
+    <string name="free_20mb_interner_for_music_bn"> প্রত্যেকটি নতুন সাবস্ক্রিপশনের সাথে ২০এমবি ইন্টারনেট ফ্রি </string>
+    <string name="day_30_free_trial_subscription">30 Day Free Trial subscription.</string>
+    <string name="day_30_free_trial_subscription_bn"> ৩০ দিন ফ্রি ট্রায়াল সাবস্ক্রিপশন </string>
+
+
+    <!--End of GP-->
+
+    <!--Start of Banglalink-->
+    <string name="balance_recharge_packs">to check recharge pack’s remaining internet balance, simply dial *124*50#.</string>
+    <string name="balance_recharge_packs_bn">রিচার্জ প্যাকের অবশিষ্ট ব্যাল্যান্স চেক করতে *124*50# এ ডায়াল করুন। </string>
+
+    <string name="standard_volume_packs">Standard Volume Packs</string>
+    <string name="standard_volume_packs_bn"> স্ট্যান্ডার্ড ভলিউম প্যাক </string>
+
+    <string name="social_media_packs">Social Media Packs</string>
+    <string name="social_media_packs_bn"> সোশ্যাল মিডিয়া প্যাক </string>
+
+    <string name="recharge_packs">Recharge Packs</string>
+    <string name="recharge_packs_bn"> রিচার্জ প্যাক </string>
+
+    <string name="auto_renew_for_bl">Dial *5000*566# and reply with 1 to turn on renewal or reply with 2 to turn off auto-renewal.</string>
+    <string name="auto_renew_for_bl_bn"> *৫০০০*৫৬৬# এ ডায়াল করে প্যাকটি রিনিউ করতে ১ চাপুন অথবা অটো-রিনিউয়াল বন্ধ করতে ২ চাপুন। </string>
+    <string name="bl_to_bl">BL to BL </string>
+    <string name="bl_to_bl_bn"> বাংলালিংক - বাংলালিংক </string>
+    <string name="bl_to_others">BL to Others </string>
+    <string name="bl_to_others_bn">  বাংলালিংক - অন্যান্য  </string>
+    <string name="bl">Banglalink</string>
+    <string name="bl_bn"> বাংলালিংক </string>
+
+    <string name="bill_cycle_based_packs">Bill-cycle based packs</string>
+    <string name="bill_cycle_based_packs_bn"> বিল-সাইকেল বেসড প্যাক</string>
+
+
+    <string name="one_time_pack_add_ons_info">Since bill-cycle based packs are bound by proportional charge upon daily basis, it often becomes a case that the bill-cycle pack volume is finished; however the bill-cycle end date is still quite far away.</string>
+    <string name="one_time_pack_add_ons_info_bn"> বিল-সাইকেল প্যাকসমূহে  দৈনিক ব্যবহারের উপর আপনাকে চার্জ করা হয়। তারচেয়েও বড় কথা হলো বিল-সাইকেল প্যাক গুলো বিল-সাইকেল শেষ হবার আগে ইন্টারনেট প্যাকের ডাটা ভলিউম শেষ হতে পারে। </string>
+
+    <string name="bill_cycle_based_packs_info">These internet packs are associated to your bill cycle. If you have purchased a bill-cycle based pack in the middle of the bill-cycle, yrerou will receive proportional internet volume @ proportional price (at prorated basis) for the remaining days of the bill-cycle.</string>
+    <string name="bill_cycle_based_packs_info_bn"> এই ইন্টারনেট প্যাকটি আপনার বিল-সাইকেলের সঙ্গে সংযুক্ত। আপনি যদি আপনার বিল-সাইকেলের মাঝে একটি  বিল-সাইকেল বেইসড প্যাক কিনেন, আপনি আপনার বিল-সাইকেলের বাকি দিনগুলোর জন্য সমানুপাতিক দামে সমানুপাতিক ইন্টারনেট ভলিউম পাবেন।  </string>
+    <string name="social_media_packs_sms_bundle">to turn off auto-renewal, type "renew off social" and send the sms to 5000. to turn on auto-renewal, type "renew on social" and send the sms to 5000.</string>
+    <string name="social_media_packs_sms_bundle_bn"> অটো-রিনিউয়াল বন্ধ করতে "renew off social" টাইপ করে 5000 এ  এসএমএস  করুন। অটো-রিনিউয়াল  চালু করতে "renew on social" টাইপ করে 5000 তে sms করুন। </string>
+
+    <string name="social_media_packs_info">f your data requirement is limited to facebook, whatsapp and twitter only, this social media pack is perfect for you. however, external browsing charges will be subject to other packs you avail. if you are a heavy user of facebook, whatsapp, twitter but require very low amount of data for browsing other sites, we recommend you to continue using 1 generic volume based pack and one service specific pack at the same time.</string>
+    <string name="social_media_packs_info_bn">আপনি যদি শুধুমাত্র facebook, whatsapp এবং twitter  ব্যবহার করতে চান, তাহলে এই সোশ্যাল মিডিয়া প্যাকটি আপনার জন্য সবচেয়ে উপযুক্ত।  তবে আপনি অন্যান্য প্যাক ব্যবহার করলে এক্সটারনাল চার্জ প্রযোজ্য। তবে আপনি যদি facebook, whatsapp এবং twitter বেশি ব্যবহার করেন তবে অন্য সাইট গুলো ব্যবহার করতে খুব কম ডাটা ব্যবহার করেন তাহলে , একই সময়ে ১টি জেনেরিক ভলিউম ভিত্তিক প্যাক আর ১টি সার্ভিস স্পেসিফিক প্যাক ব্যবহার করার পরামর্শ আপনাকে দেওয়া হচ্ছে।</string>
+    <string name="standard_volume_packs_info">These are all-purpose most popular internet packs. Choose a pack according to the need. Once pack volume is exhausted, 1 paisa/10 KB charge will be applied and speed will be reduced to 128 kbps to protect from bill-shock. To check pack balance, dial *5000*500#.</string>
+    <string name="standard_volume_packs_info_bn"> আপনার ইন্টারনেট প্যাকের ভলিউম পুরোপুরি শেষ হয়ে গেলে ১ পয়সা/১০ kb চার্জ করা হবে এবং আপনাকে বিল-শক এড়াতে ইন্টারনেট স্পীড ১২৮ kbps এ কমিয়ে আনা হবে। </string>
+
+    <string name="self_care_prepaid">SELF-CARE USSD MENU (Prepaid)</string>
+    <string name="self_care_prepaid_bn"> USSD মেনু (প্রিপেইড)</string>
+
+
+    <!--End of Banglalink-->
+
+    <!--Start of Robi-->
+    <string name="robi">Robi</string>
+    <string name="robi_bn"> রবি </string>
+    <string name="on_net_applies_for_airtel">On-net applies to both Airtel and Robi numbers</string>
+    <string name="on_net_applies_for_airtel_bn">Onnet উভয় এয়ারটেল ও রবি নম্বরে প্রযোজ্য</string>
+    <string name="robi_to_robi">Robi to Robi</string>
+    <string name="robi_to_robi_bn">রবি-রবি</string>
+    <string name="robi_to_others">Robi to Others</string>
+    <string name="robi_to_others_bn">রবি-অন্যান্য</string>
+    <string name="robi_prepaid_condition_1">If you don’t have internet bundle or pack validity has been expired Pay-per-use charge will be BDT 0.02/10 KB.</string>
+    <string name="robi_prepaid_condition_1_bn">যদি আপনার ডাটা বান্ডেল প্যাক এর মেয়াদ শেষ না হয়ে থাকে তাহলে ০.০২ টাকা /১০ কেবি রেট-এ চার্জ করা হবে।</string>
+    <string name="robi_prepaid_condition_2">If you have consumed pack volume but pack validity remains, Pay-per-use charge will be BDT 0.01/10 KB.</string>
+    <string name="robi_prepaid_condition_2_bn">যদি আপনার ডাটা বান্ডেল প্যাক শেষ হয় কিন্তু মেয়াদ শেষ না হয় তাহলে ০.০১ টাকা /১০ কেবি রেট-এ চার্জ করা হবে।</string>
+    <string name="robi_prepaid_condition_3">Dial *8444*88# for data balance check.</string>
+    <string name="robi_prepaid_condition_3_bn">ডাটা ব্যালান্স চেক করার জন্য *৮৪৪৪*৮৮# ডায়াল করুন।</string>
+    <string name="robi_prepaid_condition_4">To ensure smooth video call service, you need to have 3G video call enabled handset, and be within 3G network coverage too. </string>
+    <string name="robi_prepaid_condition_4_bn">বিরতিহীন ভিডিও কল উপভোগ করার জন্য গ্রাহকের হ্যান্ডসেটে 3জি কল করার সুবিধা থাকতে হবে। সেই সাথে গ্রাহককে রবি ৩.৫জি নেটওয়ার্ক-এর আওতায় থাকতে হবে। </string>
+    <string name="robi_postpaid_condition_1">If you don’t have internet bundle or pack validity has been expired Pay-per-use charge will be BDT 0.02/10 KB.</string>
+    <string name="robi_postpaid_condition_1_bn">যদি আপনার ডাটা বান্ডেল প্যাক এর মেয়াদ শেষ না হয়ে থাকে তাহলে ০.০২ টাকা /১০ কেবি রেট-এ চার্জ করা হবে।</string>
+    <string name="robi_postpaid_condition_2">If you have consumed pack volume but pack validity remains, Pay-per-use charge will be BDT 0.01/10 KB.</string>
+    <string name="robi_postpaid_condition_2_bn">যদি আপনার ডাটা বান্ডেল প্যাক শেষ হয় কিন্তু মেয়াদ শেষ না হয় তাহলে ০.০১ টাকা /১০ কেবি রেট-এ চার্জ করা হবে।</string>
+    <string name="robi_postpaid_condition_3">Dial *8444*88# for data balance check.</string>
+    <string name="robi_postpaid_condition_3_bn">ডাটা ব্যালান্স চেক করার জন্য *৮৪৪৪*৮৮# ডায়াল করুন।</string>
+    <string name="robi_postpaid_condition_4">To ensure smooth video call service, you need to have 3G video call enabled handset, and be within 3G network coverage too. </string>
+    <string name="robi_postpaid_condition_4_bn">বিরতিহীন ভিডিও কল উপভোগ করার জন্য গ্রাহকের হ্যান্ডসেটে 3জি কল করার সুবিধা থাকতে হবে। সেই সাথে গ্রাহককে রবি ৩.৫জি নেটওয়ার্ক-এর আওতায় থাকতে হবে। </string>
+
+    <string name="jhotpot_balance_double">Jhotpot Balance Double</string>
+    <string name="jhotpot_balance_double_bn">ঝটপট ব্যাল্যান্স ডবল </string>
+    <string name="jhotpot_balance">Jhotpot Balance</string>
+    <string name="jhotpot_balance_bn">ঝটপট ব্যাল্যান্স</string>
+
+
+    <!--End of Robi-->
+
+    <!--Start of Airtel-->
+    <string name="airtel">Airtel</string>
+    <string name="airtel_conditon_3">Taxes and levies are applicable on above mentioned rates.</string>
+    <string name="airtel_conditon_3_bn">উপরোক্ত হারের উপর কর এবং লভ্য প্রযোজ্য।</string>
+    <string name="airtel_conditon_2">Customers can migrate to the above packages by mentioned USSD for free</string>
+    <string name="airtel_conditon_2_bn">গ্রাহকরা ফ্রি ইউএসএসডি দ্বারা উল্লিখিত উপরের প্যাকেজগুলিতে মাইগ্রেশন করতে পারেন</string>
+    <string name="airtel_bn"> এয়ারটেল </string>
+    <string name="airtel_prepaid_balance_check"> Prepaid Balance check: *778*555# </string>
+    <string name="airtel_prepaid_balance_check_bn"> প্রিপেইড ব্যালেন্স চেক করার জন্য    * ৭৭৮ * ৫৫৫ # ডায়াল করুন | </string>
+    <string name="postpaid_users_1gb"> Postpaid users, please contact customer care if you need packs higher than 1GB Volume. </string>
+    <string name="postpaid_users_1gb_bn"> পোস্টপেইড ব্যবহারকারীগণ ১ গিগাবাইট ভলিউমের চেয়ে উচ্চতর প্যাকগুলি প্রয়োজন হলে কাস্টমার কেয়ারের সাথে যোগাযোগ করুন | </string>
+    <string name="postpaid_balance_check">Postpaid Balance check: *121*70#</string>
+    <string name="postpaid_balance_check_bn">পোস্টপেইড ব্যালান্স চেক করার জন্য    * ১২১ * ৭০ # ডায়াল করুন | </string>
+
+
+    <string name="tvPackageGolpo">Golpo (Pack)</string>
+    <string name="tvPackageGolpo_bn">গল্প (প্যাক)</string>
+    <string name="tvPackageAdda">Adda (pack)</string>
+    <string name="tvPackageAdda_bn">আড্ডা (প্যাক)</string>
+    <string name="tvPackageSuperAdda">Super Adda (pack)</string>
+    <string name="tvPackageSuperAdda_bn">সুপার আড্ডা (প্যাক)</string>
+    <string name="tvPackageDosti">Dosti (pack)</string>
+    <string name="tvPackageDosti_bn">দোস্তি (প্যাক)</string>
+    <string name="tvPackageHoichoi">Hoichoi (pack)</string>
+    <string name="tvPackageHoichoi_bn">হৈচৈ (প্যাক)</string>
+    <string name="tvPackageGangtalk">Gangtalk (pack)</string>
+    <string name="tvPackageGangtalk_bn">গ্যাংটক (প্যাক)</string>
+    <string name="tvPackageDolbol">Dolbol (pack)</string>
+    <string name="tvPackageDolbol_bn">দলবল (প্যাক)</string>
+    <string name="tvPackageFoorti">Foorti (pack)</string>
+    <string name="tvPackageFoorti_bn">ফুর্তি (প্যাক)</string>
+    <string name="tvPackageKotha">Kotha (pack)</string>
+    <string name="tvPackageKotha_bn">কথা (প্যাক)</string>
+
+    <!--End of Airtel-->
+
+    <!--Start of Teletalk-->
+    <string name="teletalk_prepaid_condition_1">SMS charge is free for data package activation.</string>
+    <string name="teletalk_prepaid_condition_1_bn">ডাটা প্যাকেজ অ্যাক্টিভেশনে এসএমএস চার্জ ফ্রি |</string>
+    <string name="teletalk_prepaid_condition_2">Unused data will be carried forward.</string>
+    <string name="teletalk_prepaid_condition_2_bn">পূর্বে অব্যবহৃত প্যাকেজ ভলিউম নতুন ক্রয়কৃত প্যাকেজের সাথে যুক্ত হবে( বোনাস ডাটা ব্যতীত)।</string>
+    <string name="teletalk_postpaid_condition_1">SMS charge is free for data package activation.</string>
+    <string name="teletalk_postpaid_condition_1_bn">ডাটা প্যাকেজ অ্যাক্টিভেশনে এসএমএস চার্জ ফ্রি |</string>
+    <string name="teletalk_postpaid_condition_2">Unused data will be carried forward.</string>
+    <string name="teletalk_postpaid_condition_2_bn">পূর্বে অব্যবহৃত প্যাকেজ ভলিউম নতুন ক্রয়কৃত প্যাকেজের সাথে যুক্ত হবে( বোনাস ডাটা ব্যতীত)।</string>
+    <string name="teletalk">Teletalk</string>
+    <string name="teletalk_bn"> টেলিটক </string>
+    <string name="teletalk_to_teletalk">Teletalk to Teletalk</string>
+    <string name="teletalk_to_teletalk_bn">অন নেট</string>
+    <string name="teletalk_to_others">Teletalk to Others</string>
+    <string name="teletalk_to_others_bn">অফ নেট</string>
+    <!--End of Teletalk-->
+</resources>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2015 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+-->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.walton.internetdataplan">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true"/>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <!--<uses-permission android:name="android.permission.READ_PHONE_STATE"/>-->
+    <!--<uses-permission android:name="android.permission.SEND_SMS"/>-->
+    <!--<uses-permission android:name="android.permission.CALL_PHONE"/>-->
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
+
+    <uses-permission
+        android:name="android.permission.DEVICE_POWER"
+        tools:ignore="ProtectedPermissions"/>
+
+  <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppThemeGP">
+
+        <activity
+            android:name=".activities.SplashActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/dialog">
+            <!--android:theme="@android:style/Theme.Dialog">-->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <!--<activity-->
+            <!--android:name=".activities.MainActivity"-->
+            <!--android:theme="@style/Theme.DesignGP"></activity>-->
+        <activity
+        android:name=".activities.MainActivity"
+        android:configChanges="orientation"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppThemeGP"></activity>
+
+
+        <activity
+            android:name=".activities.BanglalinkActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeBL"></activity>
+        <activity
+            android:name=".activities.GrameenphoneActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeGP"></activity>
+        <activity
+            android:name=".activities.AirtelActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeAirtel"></activity>
+
+        <activity
+            android:name=".activities.RobiActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeRobi"></activity>
+        <activity
+            android:name=".activities.TeletalkActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeTeletalk"></activity>
+        <activity
+            android:name=".activities.AboutActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeGP"></activity>
+        <activity
+            android:name=".activities.SettingsActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeGP"></activity>
+
+
+        <receiver android:name="com.walton.internetdataplan.receiver.DateChangeReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.DATE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+
+
+      <receiver android:name="com.walton.internetdataplan.receiver.BootableReceiver"
+          android:exported="false"
+          android:directBootAware="true">
+          <!-- Listening the BOOT_COMPLETED action for legacy pre-N devices -->
+          <intent-filter>
+              <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+              <action android:name="android.intent.action.BOOT_COMPLETED" />
+          </intent-filter>
+      </receiver>
+
+
+      <receiver android:name=".receiver.DeviceShutDownReceiver">
+          <intent-filter>
+              <action android:name="android.intent.action.ACTION_SHUTDOWN"/>
+          </intent-filter>
+      </receiver>
+      <receiver android:name=".receiver.NetConnectionChangeReceiver">
+          <intent-filter>
+              <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+          </intent-filter>
+      </receiver>
+      <!--<receiver android:name="com.walton.internetdataplan.receiver.ShutdownReceiver">-->
+      <!--<intent-filter>-->
+      <!--<action android:name="android.intent.action.ACTION_SHUTDOWN"/>-->
+      <!--</intent-filter>-->
+      <!--</receiver>-->
+
+      <service android:name="com.walton.internetdataplan.services.DailyConsumedService"/>
+      <service android:name="com.walton.internetdataplan.services.MobileWiFiDataUpdateService1"/>
+
+    </application>
+
+
+</manifest>

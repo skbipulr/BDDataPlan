@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<android.support.v7.widget.Toolbar-->
+<!--android:id="@+id/toolbar"-->
+<!--android:minHeight="?attr/actionBarSize"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:background="?attr/colorPrimary"-->
+<!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--app:layout_scrollFlags="scroll|enterAlways|snap"-->
+<!--app:popupTheme="@style/ThemeOverlay.AppCompat.Light"-->
+<!--xmlns:app="http://schemas.android.com/apk/res-auto">-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:gravity="center"
+    android:orientation="horizontal"
+    app:layout_scrollFlags="scroll|enterAlways|snap"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+
+        android:layout_weight="1.5">
+
+        <ImageView
+            android:id="@+id/drawer_action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/ic_menu"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/normalState"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="7">
+
+        <TextView
+            android:id="@+id/titleBar"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_weight="5"
+            android:gravity="left|center"
+            android:textAllCaps="true"
+            android:text="@string/app_name"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+    <!--</android.support.v7.widget.Toolbar>-->
+
+

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/native_ad_unit"
+              android:layout_width="match_parent"
+              android:layout_height="55dp"
+              android:layout_margin="5dp"
+              android:layout_weight="1"
+              android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_weight="20"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/native_ad_icon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="5dp"
+                android:scaleType="fitCenter"/>
+
+            <LinearLayout
+                android:id="@+id/ad_choices_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:gravity="bottom"
+                android:orientation="horizontal"/>
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:layout_weight="80"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="43"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/native_ad_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:lines="2"
+                android:paddingLeft="5dp"
+                android:text="android is a open source operating system"/>
+
+            <TextView
+                android:id="@+id/sponsored_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:lines="1"
+                android:text="Sponsored"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="10sp"/>
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/native_ad_call_to_action"
+            style="@style/ButtonStyleRobi"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="37"
+            android:paddingLeft="5dp"
+            android:text="@string/btn_add"
+            android:textSize="10sp"/>
+
+
+    </LinearLayout>
+</LinearLayout>
+

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffffff"
+              android:minWidth="350dp"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvAddPlanTitle"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:background="@color/grameen_phone_button_color_pressed"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="@string/data_plan"
+        android:textAllCaps="true"
+        android:textColor="#ffffff"
+        android:textSize="18sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvDataPackageSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:text="@string/dataSize"
+            android:textColor="#000"
+            android:textSize="16sp"
+
+            />
+
+
+        <RadioGroup
+            android:id="@+id/radiogroup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:checkedButton="@+id/cbMb"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/cbMb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mb">
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/cbGb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gb"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/cbUnlimited"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:text="@string/unlimited"></RadioButton>
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:weightSum="10">
+
+
+        <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+            android:id="@+id/sbPlanSize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            app:dsb_indicatorColor="@color/grameen_phone_button_color_pressed"
+            android:max="10"
+            app:dsb_progressColor="@color/grameen_phone_button_color_pressed"
+            app:dsb_rippleColor="@color/grameen_phone_button_color_pressed"
+
+            />
+
+
+        <EditText
+            android:id="@+id/etPlanSizeMB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:background="#fff"
+            android:inputType="numberDecimal"
+            android:text="@string/mb_10"
+            android:textColor="#606060"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:weightSum="10">
+
+        <TextView
+            android:id="@+id/tvDataTimeLength"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:text="@string/package_duration"
+            android:textColor="#000"
+            android:textSize="16sp"
+
+            />
+
+        <TextView
+            android:id="@+id/tvPlanDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="@string/day_7"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btStartDatePicker"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="@string/start_date"/>
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btEndDatePicker"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="@string/end_date"/>
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="12dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_vertical"
+            android:background="#fff"
+            android:gravity="center_vertical"/>
+
+        <Button
+            android:id="@+id/btDialogCancelButton"
+            style="@style/ButtonStyleGP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cancel"
+            android:textColor="#fff"/>
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_vertical"
+            android:background="#fff"
+            android:gravity="center_vertical"/>
+
+        <Button
+            android:id="@+id/btDoneNetPlan"
+            style="@style/ButtonStyleGP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/done"
+            android:textColor="#fff"/>
+
+        <TextView
+            android:layout_width="12dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_vertical"
+            android:background="#fff"
+            android:gravity="center_vertical"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"/>
+
+</LinearLayout>

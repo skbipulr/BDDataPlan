@@ -1,0 +1,2367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true">
+
+
+
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="10dp">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:shrinkColumns="*"
+                android:stretchColumns="*">
+
+
+                <!-- Row 1 with single column -->
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:background="@color/airtel_button_color_default"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:layout_height="48dp">
+
+                            <TextView
+                                android:id="@+id/tvPackageGolpo"
+                                android:layout_width="match_parent"
+                                android:textStyle="bold"
+                                android:textColor="@color/white"
+                                android:textSize="16sp"
+                                android:gravity="center"
+                                android:layout_height="wrap_content"
+                                android:textAllCaps="true"
+                                android:text="Golpo (Pack)"/>
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="Onnet"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="1.00/min (Non FnF)"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="Offnet"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="1.00/min (Non FnF)"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="Onnet"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="N/A (FnF)"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="Offnet"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="N/A (FnF)"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="No. of Fnf"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="N/A"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="Pulse"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="10 sec."/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="USSD Code"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="*121*82#"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="Package Category"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="Flat Rate"/>
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </TableRow>
+
+
+
+
+
+
+            </TableLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+        <!--Adda (pack)-->
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/cv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="10dp">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:shrinkColumns="*"
+                android:stretchColumns="*">
+
+
+                <!-- Row 1 with single column -->
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:background="@color/airtel_button_color_default"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:layout_height="48dp">
+
+                            <TextView
+                                android:id="@+id/tvPackageAdda"
+                                android:layout_width="match_parent"
+                                android:textStyle="bold"
+                                android:textColor="@color/white"
+                                android:textSize="16sp"
+                                android:gravity="center"
+                                android:layout_height="wrap_content"
+                                android:textAllCaps="true"
+                                android:text="Adda (Pack)"/>
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="Onnet"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="1.35/min (Non FnF)"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Offnet"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="1.35/min (Non FnF)"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="Onnet"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="0.36/min (FnF)"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="Offnet"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="0.80/min (FnF)"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="No. of Fnf"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="8"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="Pulse"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="10 sec."/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="USSD Code"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="*121*81#"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="Package Category"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="Fnf"/>
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </TableRow>
+
+
+
+
+
+
+            </TableLayout>
+
+
+        </android.support.v7.widget.CardView>
+        <!--end of Adda (pack)-->
+
+
+
+        <!--Super Adda(pack)-->
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="10dp">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:shrinkColumns="*"
+                android:stretchColumns="*">
+
+
+                <!-- Row 1 with single column -->
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:background="@color/airtel_button_color_default"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:layout_height="48dp">
+
+                            <TextView
+                                android:id="@+id/tvPackageSuperAdda"
+                                android:layout_width="match_parent"
+                                android:textStyle="bold"
+                                android:textColor="@color/white"
+                                android:textSize="16sp"
+                                android:gravity="center"
+                                android:layout_height="wrap_content"
+                                android:textAllCaps="true"
+                                android:text="Super Adda (Pack)"/>
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="Onnet"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="1.35/min (Non FnF)"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Offnet"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="1.35/min (Non FnF)"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="Onnet"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="0.30/min (FnF)"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="Offnet"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="0.60/min (FnF)"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="No. of Fnf"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="29"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="Pulse"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="10 sec."/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="USSD Code"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="*121*88#"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="Package Category"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="Fnf"/>
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </TableRow>
+
+
+
+
+
+
+            </TableLayout>
+
+
+        </android.support.v7.widget.CardView>
+        <!--end of Super Adda(pack)-->
+
+        <!--Dosti(pack)-->
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="10dp">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:shrinkColumns="*"
+                android:stretchColumns="*">
+
+
+                <!-- Row 1 with single column -->
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:background="@color/airtel_button_color_default"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:layout_height="48dp">
+
+                            <TextView
+                                android:id="@+id/tvPackageDosti"
+                                android:layout_width="match_parent"
+                                android:textStyle="bold"
+                                android:textColor="@color/white"
+                                android:textSize="16sp"
+                                android:gravity="center"
+                                android:layout_height="wrap_content"
+                                android:textAllCaps="true"
+                                android:text="Dosti (Pack)"/>
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="Onnet"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="1.35/min (Non FnF)"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Offnet"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="1.35/min (Non FnF)"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="Onnet"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="0.25/min (FnF)"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="Offnet"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="0.66/min (FnF)"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="No. of Fnf"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="5"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="Pulse"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="10 sec."/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="USSD Code"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="*121*89#"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="Package Category"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="Fnf"/>
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </TableRow>
+
+
+
+
+
+
+            </TableLayout>
+
+
+        </android.support.v7.widget.CardView>
+        <!--end of Dosti(pack)-->
+
+        <!--Hoichoi(pack)-->
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="10dp">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:shrinkColumns="*"
+                android:stretchColumns="*">
+
+
+                <!-- Row 1 with single column -->
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:background="@color/airtel_button_color_default"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:layout_height="48dp">
+
+                            <TextView
+                                android:id="@+id/tvPackageHoichoi"
+                                android:layout_width="match_parent"
+                                android:textStyle="bold"
+                                android:textColor="@color/white"
+                                android:textSize="16sp"
+                                android:gravity="center"
+                                android:layout_height="wrap_content"
+                                android:textAllCaps="true"
+                                android:text="Hoichoi(Pack)"/>
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="Onnet"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="1.00/min (Non FnF)"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Offnet"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="1.00/min (Non FnF)"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="Onnet"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="0.30/min (FnF)"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="Offnet"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="0.60/min (FnF)"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="No. of Fnf"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="2"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="Pulse"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="1 sec."/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="USSD Code"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="*121*87#"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="Package Category"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="Fnf"/>
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </TableRow>
+
+
+
+
+
+
+            </TableLayout>
+
+
+        </android.support.v7.widget.CardView>
+        <!--end of Hoichoi(pack)-->
+
+        <!--Gangtalk (pack)-->
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="10dp">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:shrinkColumns="*"
+                android:stretchColumns="*">
+
+
+                <!-- Row 1 with single column -->
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:background="@color/airtel_button_color_default"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:layout_height="48dp">
+
+                            <TextView
+                                android:id="@+id/tvPackageGangtalk"
+                                android:layout_width="match_parent"
+                                android:textStyle="bold"
+                                android:textColor="@color/white"
+                                android:textSize="16sp"
+                                android:gravity="center"
+                                android:layout_height="wrap_content"
+                                android:textAllCaps="true"
+                                android:text="Gangtalk (pack)"/>
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="Onnet"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="0.60/min (Non FnF)"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Offnet"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="1.20/min (Non FnF)"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="Onnet"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="0.30/min (FnF)"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="Offnet"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="N/A(FnF)"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="No. of Fnf"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="community"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="Pulse"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="1 sec."/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="USSD Code"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="*121*30#"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="Package Category"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="community"/>
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </TableRow>
+
+
+
+
+
+
+            </TableLayout>
+
+
+        </android.support.v7.widget.CardView>
+        <!--end of Gangtalk (pack)-->
+
+        <!--Dolbol (pack)-->
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="10dp">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:shrinkColumns="*"
+                android:stretchColumns="*">
+
+
+                <!-- Row 1 with single column -->
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:background="@color/airtel_button_color_default"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:layout_height="48dp">
+
+                            <TextView
+                                android:id="@+id/tvPackageDolbol"
+                                android:layout_width="match_parent"
+                                android:textStyle="bold"
+                                android:textColor="@color/white"
+                                android:textSize="16sp"
+                                android:gravity="center"
+                                android:layout_height="wrap_content"
+                                android:textAllCaps="true"
+                                android:text="Dolbol (pack)"/>
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="Onnet"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="0.99/min (Non FnF)"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Offnet"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="1.29/min (Non FnF)"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="Onnet"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="0.36/min(FnF)"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="Offnet"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="N/A(FnF)"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="No. of Fnf"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="community"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="Pulse"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="10 sec."/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="USSD Code"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="*121*84#"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="Package Category"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="community"/>
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </TableRow>
+
+
+
+
+
+
+            </TableLayout>
+
+
+        </android.support.v7.widget.CardView>
+        <!--end of Dolbol (pack)-->
+
+        <!--Foorti (pack)-->
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="10dp">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:shrinkColumns="*"
+                android:stretchColumns="*">
+
+
+                <!-- Row 1 with single column -->
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:background="@color/airtel_button_color_default"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:layout_height="48dp">
+
+                            <TextView
+                                android:id="@+id/tvPackageFoorti"
+                                android:layout_width="match_parent"
+                                android:textStyle="bold"
+                                android:textColor="@color/white"
+                                android:textSize="16sp"
+                                android:gravity="center"
+                                android:layout_height="wrap_content"
+                                android:textAllCaps="true"
+                            android:text="Foorti (pack)"/>
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="Onnet"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="0.36/min ( 12am:3pm ) (Non FnF)"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Offnet"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="0.79/min ( 12am:3pm ) (Non FnF)"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="Onnet"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="N/A(FnF)"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="Offnet"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="N/A(FnF)"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="No. of Fnf"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="N/A"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="Pulse"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="10 sec."/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="USSD Code"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="*121*85#"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="Package Category"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="Peak/offpeak"/>
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </TableRow>
+
+
+
+
+
+
+            </TableLayout>
+
+
+        </android.support.v7.widget.CardView>
+        <!--end of Foorti (pack)-->
+
+
+
+
+
+
+        <!--Kotha (pack)-->
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="10dp">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:shrinkColumns="*"
+                android:stretchColumns="*">
+
+
+                <!-- Row 1 with single column -->
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:background="@color/airtel_button_color_default"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:layout_height="48dp">
+
+                            <TextView
+                                android:id="@+id/tvPackageKotha"
+                                android:layout_width="match_parent"
+                                android:textStyle="bold"
+                                android:textColor="@color/white"
+                                android:textSize="16sp"
+                                android:gravity="center"
+                                android:layout_height="wrap_content"
+                                android:textAllCaps="true"
+                                android:text="Kotha (pack)"/>
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="Onnet"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="0.99/min(Non FnF)"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Offnet"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="1.29/min (Non FnF)"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="Onnet"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="N/A(FnF)"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="Offnet"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="N/A(FnF)"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="No. of Fnf"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="N/A"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="Pulse"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="1 sec."/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="USSD Code"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="*121*83#"/>
+                        </LinearLayout>
+                        <include
+                            layout="@layout/blank_text_view"></include>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="Package Category"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : "/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="Others"/>
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </TableRow>
+
+
+
+
+
+
+            </TableLayout>
+
+
+        </android.support.v7.widget.CardView>
+        <!--end of Kotha (pack)-->
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/justStaticItemForAirtelPost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            card_view:cardCornerRadius="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+                <!-- Terms & conditions -->
+
+                <TextView
+                    android:id="@+id/terms_and_conditions"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@color/airtel_button_color_default"
+                    android:gravity="center"
+                    android:text="@string/terms_and_conditions"
+                    android:textAllCaps="true"
+
+                    android:textColor="#ffffff"
+
+                    android:textStyle="bold"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text=" ➯ "/>
+
+                    <TextView
+                        android:id="@+id/on_net_applies_for_airtel"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:paddingTop="5dp"
+                        android:text="On-net applies to both Airtel and Robi numbers"/>
+
+                </LinearLayout>
+
+                <include
+                    layout="@layout/blank_text_view"></include>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text=" ➯ "/>
+
+                    <TextView
+                        android:id="@+id/airtel_conditon_2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:text="Customers can migrate to the above packages by mentioned USSD for free"/>
+
+                </LinearLayout>
+
+                <include
+                    layout="@layout/blank_text_view"></include>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text=" ➯ "/>
+
+                    <TextView
+                        android:id="@+id/airtel_conditon_3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:paddingBottom="5dp"
+                        android:text="Taxes and levies are applicable on above mentioned rates."/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="right|bottom"
+            android:paddingRight="10dp"
+            android:paddingBottom="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/check_on_web"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:text="@string/check_on_web"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:text=" | "/>
+            <TextView
+                android:id="@+id/official_web_link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:text="@string/recharge_info"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
